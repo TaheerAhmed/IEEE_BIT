@@ -133,7 +133,7 @@ Data Needed                            </p>
             <div className="text-center p-4 textyy" style={{background: "rgba(0, 0, 0, 0.025)"}}>
                     Built <i class="fa-solid fa-screwdriver-wrench texty"></i> by <a className='textyy' href="https://www.linkedin.com/in/mohammed-taheer-ahmed-530a7b1b7">
                         Mohammed Taheer Ahmed</a> & <a className='textyy' href="https://www.linkedin.com/in/mdfahad12/">
-                        Mohammad Fahad</a>
+                        Mohammad Fahad</a>& Shubam Kumar
                 <a className="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
             </div>
             {/* <!-- Copyright --> */}
