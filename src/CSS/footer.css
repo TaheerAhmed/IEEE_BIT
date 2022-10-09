@@ -1,0 +1,13 @@
+.footy{
+background:var(--bs-body-color);
+}
+.border-bottom{
+    /* border-color: wheat; */
+    color: wheat;
+     border-color: wheat !important
+     ;
+}
+.textyy{
+    color:wheat;
+    /* background-color: wheat; */
+}

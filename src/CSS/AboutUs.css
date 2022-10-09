@@ -1,0 +1,24 @@
+.container-about{
+    width: 100%;
+    background:var(--bs-body-color);
+    height: 250%;
+    padding: 1%;
+    display: block;
+padding: 3.5% 0% 0 0;
+}
+.content-head{
+    color: wheat;
+    text-align: center;
+    font-size: 300%;
+    }
+.content-about{
+    text-align: center;
+    font-size: 110%;
+    justify-items: auto;
+    line-height:1.8;
+    color:wheat;
+    align-items: center;
+        padding: 2% 8% 5% 10%;
+    margin: 0 auto;
+
+}
