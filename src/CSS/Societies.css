@@ -1,0 +1,18 @@
+.Societies-block{
+    /* background:linear-gradient(to bottom ,#343434 30%,#333333 60%,#1c1c1c 100%); */
+    background-color:var(--bs-body-color);
+    padding-top: 4%;
+}
+.titular{
+padding: 2%;
+font-size: 300%;
+color:wheat
+}
+.carding{
+    margin: 3%;
+}
+.backer{
+    background-color: transparent;
+    color:wheat;
+    box-shadow: wheat 2px 2px 4px 4px;
+}

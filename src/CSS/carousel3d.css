@@ -1,0 +1,100 @@
+.carousel-demo-wrapper {
+  position: relative;
+  background: #605d5d;
+  /* background: linear-gradient(to bottom ,#606060 30%,#4f4f4f 60%,#343434 100%); */
+  background-color: transparent;
+  overflow: hidden;
+  height: 600px;
+}
+
+.carousel-demo {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.carousel-wrapper {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 120px;
+  padding-top: 350px;
+  margin-top: -350px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+}
+
+.carouselContent {
+  transform-style: preserve-3d;
+  width: 100%;
+}
+
+.itemWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  width: 100%;
+}
+
+.itemWrapper .rotateLayer .bgAndBlurLayer {
+  border-radius: 12px;
+  overflow: hidden;
+  background:var(--bs-body-color);
+  /* background:#949494; */
+  transition: filter .65s;
+  margin: auto;
+}
+
+.itemWrapper .rotateLayer .bgAndBlurLayer .contentLayer {
+  transition: opacity .85s;
+}
+
+.img-wrapper {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.CardRole{
+    position: absolute;
+    /* top:100; */
+    bottom:0;
+    width: 100%;
+    color:wheat;
+    /* margin-bottom: 2.5%; */
+    background-color:var(--bs-body-color);
+    background-size: cover;
+    /* z-index: 100; */
+    height: 18%;
+    
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.CarouselHeader{
+  font-size: 300%;
+  padding-top: 3%;
+  display: block;
+}
+@media screen and (max-width:441px) {
+  .carousel-wrapper{
+    width: 268px;
+    height: 200px;
+    margin-top: -500px;
+  }
+}
