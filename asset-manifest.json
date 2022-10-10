@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/IEEE_BIT/static/css/main.0a408684.css",
+    "main.js": "/IEEE_BIT/static/js/main.02c86edb.js",
+    "static/js/787.c81d899c.chunk.js": "/IEEE_BIT/static/js/787.c81d899c.chunk.js",
+    "static/media/svk.jpg": "/IEEE_BIT/static/media/svk.c99f354599e98228a8f5.jpg",
+    "static/media/rk.jpg": "/IEEE_BIT/static/media/rk.d1b1a1178cc0c79cf3ba.jpg",
+    "static/media/Bhumika.jpg": "/IEEE_BIT/static/media/Bhumika.e042454929d4517d2d30.jpg",
+    "static/media/AH.jpg": "/IEEE_BIT/static/media/AH.be3a59f108374198a2f4.jpg",
+    "static/media/ChP.jpg": "/IEEE_BIT/static/media/ChP.13cace3b32d1a11fe69c.jpg",
+    "static/media/MTA.jpeg": "/IEEE_BIT/static/media/MTA.ae812a16b134e9de5105.jpeg",
+    "static/media/akp.jpg": "/IEEE_BIT/static/media/akp.9526c6991880cccf5b51.jpg",
+    "static/media/logo2.png": "/IEEE_BIT/static/media/logo2.aca1f755238d2cc40d93.png",
+    "static/media/logo.svg": "/IEEE_BIT/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/IEEE_BIT/index.html",
+    "main.0a408684.css.map": "/IEEE_BIT/static/css/main.0a408684.css.map",
+    "main.02c86edb.js.map": "/IEEE_BIT/static/js/main.02c86edb.js.map",
+    "787.c81d899c.chunk.js.map": "/IEEE_BIT/static/js/787.c81d899c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a408684.css",
+    "static/js/main.02c86edb.js"
+  ]
+}
