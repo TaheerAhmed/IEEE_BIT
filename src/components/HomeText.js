@@ -12,7 +12,9 @@ const HomeText=()=>{
     useEffect(() => {
         if (!vantaEfect) {
             console.log("hello")
-                    setVantaEffect(NET({
+
+            setVantaEffect(NET({
+
                 el: ".combined-wrapper",
                 mouseControls: true,
                 touchControls: true,
@@ -146,6 +148,7 @@ const HomeText=()=>{
                     </div>
                 )}
             </div>
+
         );
    
 }

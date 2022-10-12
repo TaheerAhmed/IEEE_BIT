@@ -14,6 +14,7 @@ import sar from '../images/srn.jpg'
 import rht from '../images/Rohit.jpg'
 
 
+
 // const currentDpr = window.devicePixelRatio;
 // const defaultDpr = 2; // sketch 里用的是 iphone 6 尺寸;
 const dpr = 0.5;// currentDpr / defaultDpr;
@@ -289,6 +290,7 @@ const imgWrapper = [
         img: rht, role: "CAS Chair", Name: "Rohit T S"
     }
     //need to addd saran and rohit photo and hence add the same
+
 ];
 
 export default function Carousel() {
