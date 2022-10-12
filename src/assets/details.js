@@ -1,4 +1,3 @@
-
 import rk from '../images/rk.jpg'
 import akp from '../images/akp.jpg'
 import jalajamam from'../images/JALAJAMAM.jpg'
