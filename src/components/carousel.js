@@ -10,6 +10,9 @@ import Chitra from '../images/ChP.jpg'
 import Sree from '../images/svk.jpg'
 import Ashray from '../images/AH.jpg'
 import mta from '../images/MTA.jpeg'
+import sar from '../images/srn.jpg'
+import rht from '../images/Rohit.jpg'
+
 
 // const currentDpr = window.devicePixelRatio;
 // const defaultDpr = 2; // sketch 里用的是 iphone 6 尺寸;
@@ -278,7 +281,14 @@ const imgWrapper = [
     },
     {
         img: Sree, role: "MD Chair", Name: "M Sree Vathsa Kashyap"
+    },
+    {
+        img: sar, role: "Design Head", Name: "B.Saran"
+    },
+    {
+        img: rht, role: "CAS Chair", Name: "Rohit T S"
     }
+    //need to addd saran and rohit photo and hence add the same
 ];
 
 export default function Carousel() {
@@ -299,9 +309,9 @@ export default function Carousel() {
             
         <div  className="carousel-demo-wrapper">
                 <div data-aos="zoom-in"
-                    data-aos-easing="ease-in-sine" className='CarouselHeader'>Core Team Members</div>
+                    data-aos-easing="ease-in-sine" className='CarouselHeader'>Executive Team Members</div>
                 <Carousel3d data-aos="zoom-in" 
-                    data-aos-easing="ease-in-sine" className="carousel-demo" childMaxLength={8}>
+                    data-aos-easing="ease-in-sine" className="carousel-demo" childMaxLength={10}>
                 {children}
             </Carousel3d>
         </div>

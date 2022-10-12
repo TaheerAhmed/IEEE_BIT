@@ -1,0 +1,46 @@
+.frontier {
+    padding: 0;
+    width: 200px;
+    height:200px;
+}
+.backerr{
+    /* padding: auto; */
+      width: 200px;
+    height:200px;
+    background-color: transparent;
+    color:wheat;
+    box-shadow: wheat 2px 2px 4px 4px;
+}
+.carder{
+   width: 500px;
+   margin-left: 5%;
+   align-content: center;
+   margin-bottom: 13%;
+  
+}
+
+.Cnt{
+    background: var(--bs-body-color);
+    height: 100%;
+}
+@media screen and (max-width:768px){
+    
+    .carder{
+        align-items: center;
+        margin-left: 10%;
+        margin-bottom: 25%;
+        margin-top: 10%;
+    }
+    .frontier{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 20%;
+    }
+    .backerr{
+      
+        width: 300px;
+        height: 300px;
+        margin-bottom: 20%;
+    }
+    
+}

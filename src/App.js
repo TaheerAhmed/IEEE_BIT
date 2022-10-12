@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from '../src/Home/Home'
+import Home from '../src/Pages/Home'
 import React,{useEffect} from 'react';
+import Team2022 from '../src/Pages/Team2022'
+
 
 function App() {
   useEffect(() => {
@@ -19,8 +21,9 @@ function App() {
     };
   }, []);
   return (
-    <div className="App">
+    <div className="App noselect">
      <Home/>
+     <Team2022/>
     </div>
   );
 }

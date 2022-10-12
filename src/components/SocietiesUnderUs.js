@@ -28,7 +28,8 @@ const Soc=()=>{
                     
                 </FrontSide>
                 <BackSide className="backer">
-                    Data Needed???
+                        IEEE Circuits and Systems Society brings engineers, researchers, scientists and others involved in circuits and systems applications access to the industry's most essential technical information, networking opportunities, career development and much more.
+
                 </BackSide>
             </Flippy>
             <Flippy className="carding"
