@@ -79,73 +79,105 @@ const HomeText=()=>{
         return c;
     }
         return (
-            <div className="combined-wrapper noselect" id="anim">
-                {show&& (
-                    <div className="combined">
-                        <div className="combined-shape">
-                            <div className="shape-left">
-                                <TweenOne
-                                    animation={[
-                                        { x: 158, type: 'from', ease: 'easeInOutQuint', duration: 700 },
-                                        { x: -158, ease: 'easeInOutQuart', duration: 450, delay: -150 },
-                                    ]}
-                                />
-                            </div>
-                            <div className="shape-right">
-                                <TweenOne
-                                    animation={[
-                                        { x: -158, type: 'from', ease: 'easeInOutQuint', duration: 700 },
-                                        { x: 158, ease: 'easeInOutQuart', duration: 450, delay: -150 },
-                                    ]}
-                                />
-                            </div>
-                        </div>
-                        <Texty
-                            className="title"
-                            type="mask-top"
-                            delay={400}
-                            enter={getEnter}
-                            interval={geInterval}
-                            component={TweenOne}
-                            componentProps={{
-                                animation: [
-                                    { x: 130, type: 'set' },
-                                    { x: 100, delay: 500, duration: 350 },
-                                    {
-                                        ease: 'easeOutQuart',
-                                        duration: 300,
-                                        x: 0,
-                                    },
-                                    {
-                                        letterSpacing: 0,
-                                        delay: -300,
-                                        scale: 0.9,
-                                        ease: 'easeInOutQuint',
-                                        duration: 1000,
-                                    },
-                                    { scale: 1, width: '100%', delay: -200, duration: 600, ease: 'easeInOutQuint' },
-                                ],
-                            }}
-                        >
-                            IEEE BIT
-                        </Texty>
-                        <TweenOne
-                            className="combined-bar"
-                            animation={{ delay: 1000, width: 0, x: 158, type: 'from', ease: 'easeInOutExpo' }}
-                        />
-                        <Texty
-                            className="content"
-                            type="bottom"
-                            split={getSplit}
-                            delay={2200}
-                            interval={30}
-                        >
-                           
-                            The Official IEEE student Branch of Bangalore institute of Technology
-                        </Texty>
-                    </div>
-                )}
-            </div>
+          <div className='combined-wrapper noselect' id='anim'>
+            {show && (
+              <div className='combined'>
+                <div className='combined-shape'>
+                  <div className='shape-left'>
+                    <TweenOne
+                      animation={[
+                        {
+                          x: 158,
+                          type: 'from',
+                          ease: 'easeInOutQuint',
+                          duration: 700,
+                        },
+                        {
+                          x: -158,
+                          ease: 'easeInOutQuart',
+                          duration: 450,
+                          delay: -150,
+                        },
+                      ]}
+                    />
+                  </div>
+                  <div className='shape-right'>
+                    <TweenOne
+                      animation={[
+                        {
+                          x: -158,
+                          type: 'from',
+                          ease: 'easeInOutQuint',
+                          duration: 700,
+                        },
+                        {
+                          x: 158,
+                          ease: 'easeInOutQuart',
+                          duration: 450,
+                          delay: -150,
+                        },
+                      ]}
+                    />
+                  </div>
+                </div>
+                <Texty
+                  className='title'
+                  type='mask-topr'
+                  delay={400}
+                  enter={getEnter}
+                  interval={geInterval}
+                  component={TweenOne}
+                  componentProps={{
+                    animation: [
+                      { x: 130, type: 'set' },
+                      { x: 100, delay: 500, duration: 350 },
+                      {
+                        ease: 'easeOutQuart',
+                        duration: 300,
+                        x: 0,
+                      },
+                      {
+                        letterSpacing: 0,
+                        delay: -300,
+                        scale: 0.9,
+                        ease: 'easeInOutQuint',
+                        duration: 1000,
+                      },
+                      {
+                        scale: 1,
+                        width: '100%',
+                        delay: -200,
+                        duration: 600,
+                        ease: 'easeInOutQuint',
+                      },
+                    ],
+                  }}
+                >
+                  IEEE BIT
+                </Texty>
+                <TweenOne
+                  className='combined-bar'
+                  animation={{
+                    delay: 1000,
+                    width: 0,
+                    x: 158,
+                    type: 'from',
+                    ease: 'easeInOutExpo',
+                  }}
+                />
+                <Texty
+                  className='content'
+                  type='bottom scale'
+                  split={getSplit}
+                  delay={2200}
+                  interval={30}
+                >
+                  The Official IEEE student Branch of Bangalore institute of
+                  Technology
+                </Texty>
+              </div>
+            )}
+          </div>
         );
    
 }
