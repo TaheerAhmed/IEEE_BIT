@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import Home from '../src/Home/Home';
 import React, { useEffect } from 'react';
-import DynamicGallery from './Gallery/DynamicColumn';
 
 function App() {
   useEffect(() => {
@@ -22,7 +21,6 @@ function App() {
   return (
     <div className='App'>
       <Home />
-      <DynamicGallery />
     </div>
   );
 }
