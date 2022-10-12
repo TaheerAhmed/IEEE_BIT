@@ -31,7 +31,7 @@ function App() {
      {/* <Home/>
      <Team2022/> */}
      <AUS/>
-      <MyGallery />
+      {/* <MyGallery /> */}
 
     </div>
   );
