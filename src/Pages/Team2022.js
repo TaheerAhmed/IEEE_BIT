@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from '../components/NavBar'
+import NavBarComp from '../components/NavBar'
 import details from '../assets/details'
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import Container from 'react-bootstrap/Container';
@@ -43,7 +43,7 @@ return items
 }
 return(
     <div className="Cnt">
-        <NavBar/>
+        <NavBarComp/>
         <div >
         <Row xs={1}  md={2} lg={4}>
             {getColumnsForRow()}

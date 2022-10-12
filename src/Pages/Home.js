@@ -17,7 +17,7 @@ const Home =()=>{
     <AboutUs/>
     <Carousel/>
     <Soc/>
-                <Footer />
+    <Footer />
     </div>
 
 </div>
