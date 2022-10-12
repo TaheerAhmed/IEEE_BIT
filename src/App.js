@@ -3,6 +3,7 @@ import './App.css';
 import Home from '../src/Pages/Home'
 import React,{useEffect} from 'react';
 import Team2022 from '../src/Pages/Team2022'
+import MyGallery from './Pages/Gallery';
 
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
   }, []);
   return (
     <div className="App noselect">
-     <Home/>
-     <Team2022/>
+     {/* <Home/>
+      <Team2022 /> */}
+      <MyGallery />
     </div>
   );
 }
