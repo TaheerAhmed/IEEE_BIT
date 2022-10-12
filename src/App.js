@@ -4,7 +4,11 @@ import './App.css';
 import Home from '../src/Pages/Home'
 import React,{useEffect} from 'react';
 import Team2022 from '../src/Pages/Team2022'
+
 import AUS from '../src/Pages/AboutUS'
+
+import MyGallery from './Pages/Gallery';
+
 
 function App() {
   useEffect(() => {
@@ -27,6 +31,8 @@ function App() {
      {/* <Home/>
      <Team2022/> */}
      <AUS/>
+      <MyGallery />
+
     </div>
   );
 }
