@@ -28,10 +28,10 @@ function App() {
   }, []);
   return (
     <div className="App noselect">
-     {/* <Home/>
-     <Team2022/> */}
-     <AUS/>
-      <MyGallery />
+     {/* <Home/> */}
+     <Team2022/>
+     {/* <AUS/> */}
+      {/* <MyGallery /> */}
 
     </div>
   );
